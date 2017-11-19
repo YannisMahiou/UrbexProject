@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/ClassLibrary">
+  <Auteur>
+    <Mail>boss@gmail.com</Mail>
+    <MotDePasse>toto</MotDePasse>
+    <Pseudo>boosDuGame</Pseudo>
+    <Description>Sympa</Description>
+  </Auteur>
+  <Nom>Histoire</Nom>
+  <lesArticles>
+    <article>
+      <Administrateur>
+        <Mail>boss@gmail.com</Mail>
+        <MotDePasse>toto</MotDePasse>
+        <Pseudo>boosDuGame</Pseudo>
+        <Description>Sympa</Description>
+      </Administrateur>
+      <DateArticle>13/06/2017 14:26:43</DateArticle>
+      <Titre>Règle 1</Titre>
+      <contenuArticle>Ne pas faire n'importe quoi Ne pas faire n'importe quoi Ne pas faire n'importe quoi Ne pas faire n'importe quoi Ne pas faire n'importe quoi Ne pas faire n'importe quoi Ne pas faire n'importe quoi Ne pas faire n'importe quoi Ne pas faire n'importe quoi Ne pas faire n'importe quoi Ne pas faire n'importe quoi !</contenuArticle>
+    </article>
+    <article>
+      <Administrateur>
+        <Mail>boss@gmail.com</Mail>
+        <MotDePasse>toto</MotDePasse>
+        <Pseudo>boosDuGame</Pseudo>
+        <Description>Sympa</Description>
+      </Administrateur>
+      <DateArticle>13/06/2017 14:26:43</DateArticle>
+      <Titre>Règle 2</Titre>
+      <contenuArticle>Ne pas faire n'importe quoi !</contenuArticle>
+    </article>
+    <article>
+      <Administrateur>
+        <Mail>boss@gmail.com</Mail>
+        <MotDePasse>toto</MotDePasse>
+        <Pseudo>boosDuGame</Pseudo>
+        <Description>Sympa</Description>
+      </Administrateur>
+      <DateArticle>13/06/2017 14:26:43</DateArticle>
+      <Titre>Règle 3</Titre>
+      <contenuArticle>Ne pas faire n'importe quoi !</contenuArticle>
+    </article>
+  </lesArticles>
+</topic>

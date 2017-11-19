@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/ClassLibrary">
+  <Auteur>
+    <Mail>boss@gmail.com</Mail>
+    <MotDePasse>toto</MotDePasse>
+    <Pseudo>boosDuGame</Pseudo>
+    <Description>Sympa</Description>
+  </Auteur>
+  <Nom>Histoire</Nom>
+  <lesArticles>
+    <article>
+      <Administrateur>
+        <Mail>boss@gmail.com</Mail>
+        <MotDePasse>toto</MotDePasse>
+        <Pseudo>boosDuGame</Pseudo>
+        <Description>Sympa</Description>
+      </Administrateur>
+      <DateArticle>13/06/2017 14:26:43</DateArticle>
+      <Titre>Début</Titre>
+      <contenuArticle>L'exploration urbaine, au sens propre, désigne le fait de recueillir des données sur des zones publiques du paysage urbain, délaissées tout ou partie du temps, en vue d'y accéder et de les utiliser. Cette activité, bien que clandestine et faite sans l'autorisation des éventuels propriétaires, n'est prohibée en France que par quelques décrets, arrêtés préfectoraux, ou règlements internes de certaines administrations. Les exemples de cette activité sont rares et peu connus, pour des raisons pratiques évidentes liées à toute activité clandestine. On peut malgré tout citer celui de l'UX ou Urban eXperiment, dont l'Exploration Urbaine, au sens propre fut l'activité préliminaire, au début des années 1980</contenuArticle>
+    </article>
+  </lesArticles>
+</topic>

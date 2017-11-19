@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<users xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/ClassLibrary">
+  <listeUser>
+    <User>
+      <Mail>guillaume@gmail.com</Mail>
+      <MotDePasse>guigui71</MotDePasse>
+      <Pseudo>guillaume</Pseudo>
+    </User>
+    <User>
+      <Mail>fabien@gmail.com</Mail>
+      <MotDePasse>fab71</MotDePasse>
+      <Pseudo>fabien</Pseudo>
+    </User>
+    <User>
+      <Mail>yannis@gmail.com</Mail>
+      <MotDePasse>yan71</MotDePasse>
+      <Pseudo>yannis</Pseudo>
+    </User>
+    <User>
+      <Mail>alex@gmail.com</Mail>
+      <MotDePasse>alex71</MotDePasse>
+      <Pseudo>alex</Pseudo>
+    </User>
+    <User i:type="Admin">
+      <Mail>admin@gmail.com</Mail>
+      <MotDePasse>admin</MotDePasse>
+      <Pseudo>admin</Pseudo>
+      <Description>Le grand méchant loup</Description>
+    </User>
+    <User i:type="Admin">
+      <Mail>boss@gmail.com</Mail>
+      <MotDePasse>toto</MotDePasse>
+      <Pseudo>boosDuGame</Pseudo>
+      <Description>Sympa</Description>
+    </User>
+    <User>
+      <Mail>test@gmail.com</Mail>
+      <MotDePasse>test</MotDePasse>
+      <Pseudo>test</Pseudo>
+    </User>
+    <User>
+      <Mail>tante@gmail.com</Mail>
+      <MotDePasse>test</MotDePasse>
+      <Pseudo>tante</Pseudo>
+    </User>
+  </listeUser>
+</users>

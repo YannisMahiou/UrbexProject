@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spots xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/ClassLibrary">
+  <spots xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:KeyValueOfregionArrayOflieuAF_PaJikl>
+      <d2p1:Key>
+        <CheminImage></CheminImage>
+        <Description>Région situé au centre de la france, elle est connue pour sa chaine de puys.</Description>
+        <nomRegion>Auvergne</nomRegion>
+      </d2p1:Key>
+      <d2p1:Value>
+        <lieu>
+          <Nom>Chateau</Nom>
+          <Note>6</Note>
+          <descriptionLieu>Vraiment très bien</descriptionLieu>
+          <image>../Image/chateau.jpg</image>
+          <listAvis>
+            <Avis>
+              <Note>6</Note>
+              <Pseudo>guillaume</Pseudo>
+              <commentaire>Un lieu pour le moins étonnant et plutôt lubre si je peux me permettre !</commentaire>
+              <dateAvis>13/06/2017 14:27:24</dateAvis>
+            </Avis>
+            <Avis>
+              <Note>6</Note>
+              <Pseudo>test</Pseudo>
+              <commentaire>Vraiment pas mal !!!</commentaire>
+              <dateAvis>13/06/2017 14:33:33</dateAvis>
+            </Avis>
+            <Avis>
+              <Note>6</Note>
+              <Pseudo>guillaume</Pseudo>
+              <commentaire>Pas mal !</commentaire>
+              <dateAvis>13/06/2017 18:52:37</dateAvis>
+            </Avis>
+          </listAvis>
+        </lieu>
+        <lieu>
+          <Nom>Bateau</Nom>
+          <Note>7</Note>
+          <descriptionLieu>Vraiment très bien</descriptionLieu>
+          <image>../Image/bateau.jpg</image>
+          <listAvis>
+            <Avis>
+              <Note>8</Note>
+              <Pseudo>guillaume</Pseudo>
+              <commentaire>Je voous conseille vivement ce lieu comme site d'urbex. A la fois agréable et magnifique, il saura vous divertir le temps d'une journée !</commentaire>
+              <dateAvis>13/06/2017 14:28:22</dateAvis>
+            </Avis>
+            <Avis>
+              <Note>6</Note>
+              <Pseudo>test</Pseudo>
+              <commentaire>c'est plutot cool !</commentaire>
+              <dateAvis>13/06/2017 14:34:20</dateAvis>
+            </Avis>
+            <Avis>
+              <Note>7</Note>
+              <Pseudo>guillaume</Pseudo>
+              <commentaire>Vraiment coooool !!!</commentaire>
+              <dateAvis>13/06/2017 18:52:51</dateAvis>
+            </Avis>
+          </listAvis>
+        </lieu>
+        <lieu>
+          <Nom>Maison</Nom>
+          <Note>7</Note>
+          <descriptionLieu>Vraiment très bien</descriptionLieu>
+          <image>../Image/maison.jpg</image>
+          <listAvis>
+            <Avis>
+              <Note>7</Note>
+              <Pseudo>guillaume</Pseudo>
+              <commentaire>Cette maison est un lieu intéressant, plein d'histoire, qui mérite d'être visité.</commentaire>
+              <dateAvis>13/06/2017 14:29:10</dateAvis>
+            </Avis>
+          </listAvis>
+        </lieu>
+      </d2p1:Value>
+    </d2p1:KeyValueOfregionArrayOflieuAF_PaJikl>
+    <d2p1:KeyValueOfregionArrayOflieuAF_PaJikl>
+      <d2p1:Key>
+        <CheminImage></CheminImage>
+        <Description>Région très souvent considérée comme le royaume de la pluie, elle saura vous suprendre.</Description>
+        <nomRegion>Bretagne</nomRegion>
+      </d2p1:Key>
+      <d2p1:Value>
+        <lieu>
+          <Nom>champ</Nom>
+          <Note>7</Note>
+          <descriptionLieu>Un champ (du latin campus) est un espace défini et ouvert, parcelle de terre cultivée ou terrain réservé à une activité spécifique. Par extension de sens, un champ est une étendue virtuelle dans un domaine donné, par exemple champ d'application ou champ d'action. Champ ou champ’ est aussi une abréviation familière pour « champagne », lui - même signifiant « vin de Champagne » mais aussi pour le mot champignon.</descriptionLieu>
+          <image>../Image/champTest.png</image>
+          <listAvis>
+            <Avis>
+              <Note>7</Note>
+              <Pseudo>guillaume</Pseudo>
+              <commentaire>Je recommende chaudement ce site. A défault d'être éloigné de toute civilisation, il vous offrira sans aucun doute un moment de détente dont vous vous souviendrez longtemps !</commentaire>
+              <dateAvis>13/06/2017 14:26:43</dateAvis>
+            </Avis>
+          </listAvis>
+        </lieu>
+      </d2p1:Value>
+    </d2p1:KeyValueOfregionArrayOflieuAF_PaJikl>
+  </spots>
+</Spots>

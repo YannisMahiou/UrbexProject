@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOftopic xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/ClassLibrary">
+  <topic>
+    <Auteur>
+      <Mail>boss@gmail.com</Mail>
+      <MotDePasse>toto</MotDePasse>
+      <Pseudo>boosDuGame</Pseudo>
+      <Description>Sympa</Description>
+    </Auteur>
+    <Nom>Actualité</Nom>
+    <lesArticles>
+      <article>
+        <Administrateur>
+          <Mail>boss@gmail.com</Mail>
+          <MotDePasse>toto</MotDePasse>
+          <Pseudo>boosDuGame</Pseudo>
+          <Description>Sympa</Description>
+        </Administrateur>
+        <DateArticle>13/06/2017 14:26:43</DateArticle>
+        <Titre>New tableau</Titre>
+        <contenuArticle>Une description comme une autre est plutot jolie car j'aime les champignons</contenuArticle>
+      </article>
+      <article>
+        <Administrateur>
+          <Mail>boss@gmail.com</Mail>
+          <MotDePasse>toto</MotDePasse>
+          <Pseudo>boosDuGame</Pseudo>
+          <Description>Sympa</Description>
+        </Administrateur>
+        <DateArticle>13/06/2017 14:26:43</DateArticle>
+        <Titre>Databinding ok</Titre>
+        <contenuArticle>Ceci est un test, a ne pas prendre au premier °C bien sur ! Pouet !</contenuArticle>
+      </article>
+      <article>
+        <Administrateur>
+          <Mail>boss@gmail.com</Mail>
+          <MotDePasse>toto</MotDePasse>
+          <Pseudo>boosDuGame</Pseudo>
+          <Description>Sympa</Description>
+        </Administrateur>
+        <DateArticle>13/06/2017 14:26:43</DateArticle>
+        <Titre>Une petite chanson</Titre>
+        <contenuArticle>Du texte -&gt; il en faut peut pour être heureux, vraiment très peu pour être heureux, il faut se satisfaire du nécessaire</contenuArticle>
+      </article>
+    </lesArticles>
+  </topic>
+  <topic>
+    <Auteur>
+      <Mail>boss@gmail.com</Mail>
+      <MotDePasse>toto</MotDePasse>
+      <Pseudo>boosDuGame</Pseudo>
+      <Description>Sympa</Description>
+    </Auteur>
+    <Nom>New</Nom>
+    <lesArticles>
+      <article>
+        <Administrateur>
+          <Mail>boss@gmail.com</Mail>
+          <MotDePasse>toto</MotDePasse>
+          <Pseudo>boosDuGame</Pseudo>
+          <Description>Sympa</Description>
+        </Administrateur>
+        <DateArticle>13/06/2017 14:26:43</DateArticle>
+        <Titre>C'est la Fin ?!</Titre>
+        <contenuArticle>Incroyable nouvelle : il se pourrait bien que l'on ait bientôt finit notre application ! Plus d'info sur BFM-C#</contenuArticle>
+      </article>
+    </lesArticles>
+  </topic>
+  <topic>
+    <Auteur>
+      <Mail>boss@gmail.com</Mail>
+      <MotDePasse>toto</MotDePasse>
+      <Pseudo>boosDuGame</Pseudo>
+      <Description>Sympa</Description>
+    </Auteur>
+    <Nom>NousContacter</Nom>
+    <lesArticles>
+      <article>
+        <Administrateur>
+          <Mail>boss@gmail.com</Mail>
+          <MotDePasse>toto</MotDePasse>
+          <Pseudo>boosDuGame</Pseudo>
+          <Description>Sympa</Description>
+        </Administrateur>
+        <DateArticle>13/06/2017 14:26:43</DateArticle>
+        <Titre>Contacter</Titre>
+        <contenuArticle>Afin de nous contacter, il vous suffit de vous rendre sur google, taper chaussette et prendre le 3ème site de la page 99.</contenuArticle>
+      </article>
+    </lesArticles>
+  </topic>
+</ArrayOftopic>

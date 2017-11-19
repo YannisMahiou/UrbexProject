@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{292B8A10-075E-4C62-98B9-26FDE6754E71}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UrbexProject</RootNamespace>
+    <AssemblyName>UrbexProject</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="FenetrePrincipal.xaml.cs">
+      <DependentUpon>FenetrePrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Galerie.xaml.cs">
+      <DependentUpon>Galerie.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageAjoutAvis.xaml.cs">
+      <DependentUpon>PageAjoutAvis.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageConnexion.xaml.cs">
+      <DependentUpon>PageConnexion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageProfil.xaml.cs">
+      <DependentUpon>PageProfil.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UsersControlAdmin\Accueil.xaml.cs">
+      <DependentUpon>Accueil.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UsersControlAdmin\AccueilPagesModif\Add.xaml.cs">
+      <DependentUpon>Add.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UsersControlAdmin\AccueilPagesModif\Supp.xaml.cs">
+      <DependentUpon>Supp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UsersControlAdmin\EnSavoirPlus.xaml.cs">
+      <DependentUpon>EnSavoirPlus.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UsersControlAdmin\Histoire.xaml.cs">
+      <DependentUpon>Histoire.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UsersControlAdmin\Regles.xaml.cs">
+      <DependentUpon>Regles.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UsersControlAdmin\SpotsPage.xaml.cs">
+      <DependentUpon>SpotsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UsersControlAdmin\SpotsPage2.xaml.cs">
+      <DependentUpon>SpotsPage2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UsersControlAdmin\SpotsPagesModif\AddLieu.xaml.cs">
+      <DependentUpon>AddLieu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UsersControlAdmin\SpotsPagesModif\AddRegion.xaml.cs">
+      <DependentUpon>AddRegion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UsersControlAdmin\SpotsPagesModif\SuppLieu.xaml.cs">
+      <DependentUpon>SuppLieu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UsersControlAdmin\SpotsPagesModif\SuppRegion.xaml.cs">
+      <DependentUpon>SuppRegion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UsersControl\Accueil.xaml.cs">
+      <DependentUpon>Accueil.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UsersControl\EnSavoirPlus.xaml.cs">
+      <DependentUpon>EnSavoirPlus.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UsersControl\Histoire.xaml.cs">
+      <DependentUpon>Histoire.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UsersControl\Regles.xaml.cs">
+      <DependentUpon>Regles.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UsersControl\SpotsPage.xaml.cs">
+      <DependentUpon>SpotsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UsersControl\SpotsPage2.xaml.cs">
+      <DependentUpon>SpotsPage2.xaml</DependentUpon>
+    </Compile>
+    <Page Include="FenetrePrincipal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Galerie.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageAjoutAvis.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageConnexion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageProfil.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UsersControlAdmin\Accueil.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UsersControlAdmin\AccueilPagesModif\Add.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UsersControlAdmin\AccueilPagesModif\Supp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UsersControlAdmin\EnSavoirPlus.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UsersControlAdmin\Histoire.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UsersControlAdmin\Regles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UsersControlAdmin\SpotsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UsersControlAdmin\SpotsPage2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UsersControlAdmin\SpotsPagesModif\AddLieu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UsersControlAdmin\SpotsPagesModif\AddRegion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UsersControlAdmin\SpotsPagesModif\SuppLieu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UsersControlAdmin\SpotsPagesModif\SuppRegion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UsersControl\Accueil.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UsersControl\EnSavoirPlus.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UsersControl\Histoire.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UsersControl\Regles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UsersControl\SpotsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UsersControl\SpotsPage2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\croixBlanche70x70.jpg" />
+    <Resource Include="Image\pointDInterro70x70.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\connexion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\fond1Flou.jpg" />
+    <Resource Include="Image\fond2Flou.jpg" />
+    <Resource Include="Image\fond3Flou.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\nordPasDeCalais_color.png" />
+    <Resource Include="Image\nordPasDeCalais_uncolor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\fond4Flou.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\AuvergneFond.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\ClassLibrary.csproj">
+      <Project>{dde9e964-fa67-4ec8-8e4d-ec263c9f7355}</Project>
+      <Name>ClassLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ConsoleApplication\ConsoleApplication.csproj">
+      <Project>{34c25c28-5061-4bfe-b832-d06e6d9b76cf}</Project>
+      <Name>ConsoleApplication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Data\Data.csproj">
+      <Project>{8f2bfe4c-7283-41c2-a1ae-b2dd84915b07}</Project>
+      <Name>Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\fondNoir.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\fond5Flou.jpg" />
+    <Resource Include="Image\fond5Flou.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\IconProjet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\champTest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\AjoutAvisFond.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Fond6.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Agrandir2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\ImageGalerie\champ.jpeg" />
+    <Resource Include="Image\ImageGalerie\cityByNight.jpg" />
+    <Resource Include="Image\ImageGalerie\PontSeul.jpg" />
+    <Resource Include="Image\ImageGalerie\tourEffeil.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\chateau.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\bateau.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\maison.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

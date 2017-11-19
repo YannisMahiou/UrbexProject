@@ -1,0 +1,6 @@
+C:\Users\Yannis\Desktop\UrbexProject\UrbexProject\ClassLibrary1\bin\Debug\XMLDocumentationLibrary\ClassLibrary.xml
+C:\Users\Yannis\Desktop\UrbexProject\UrbexProject\ClassLibrary1\bin\Debug\XMLDocumentationLibrary\ClassLibrary.dll
+C:\Users\Yannis\Desktop\UrbexProject\UrbexProject\ClassLibrary1\bin\Debug\XMLDocumentationLibrary\ClassLibrary.pdb
+C:\Users\Yannis\Desktop\UrbexProject\UrbexProject\ClassLibrary1\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Yannis\Desktop\UrbexProject\UrbexProject\ClassLibrary1\obj\Debug\ClassLibrary.dll
+C:\Users\Yannis\Desktop\UrbexProject\UrbexProject\ClassLibrary1\obj\Debug\ClassLibrary.pdb

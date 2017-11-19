@@ -1,0 +1,30 @@
+﻿<UserControl x:Class="UrbexProject.UsersControl.Regles"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:UrbexProject.UsersControl"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="500">
+    <Grid Name="rootRegle">
+        <StackPanel x:Name="stack1" Margin="20">
+            <StackPanel.Background>
+                <SolidColorBrush Color="Black" Opacity="0.5"/>
+            </StackPanel.Background>
+            <Label Content="Règles" Foreground="White" HorizontalAlignment="Center" FontSize="40" FontWeight="Bold"/>
+            <ListBox x:Name="listRegle" Background="Transparent" ItemsSource="{Binding ReglesPage.LArticle}" ScrollViewer.HorizontalScrollBarVisibility="Disabled" BorderThickness="0" Margin="10">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Width="{Binding ActualWidth, ElementName=listRegle}">
+                            <StackPanel.Background>
+                                <SolidColorBrush Color="Black" Opacity="0.7"/>
+                            </StackPanel.Background>
+                            <Label Content="{Binding Titre}" Foreground="White" FontSize="25" FontWeight="DemiBold"/>
+                            <TextBlock Foreground="White" Text="{Binding Texte}" FontSize="15" TextWrapping="Wrap" MaxWidth="{Binding ActualWidth, ElementName=stack1}" Margin="10"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </StackPanel>
+    </Grid>
+</UserControl>

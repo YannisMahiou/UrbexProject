@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Data</name>
+    </assembly>
+    <members>
+        <member name="T:Data.ILoad">
+            <summary>
+            Cette interface permet aux classe Stub et Xml de pouvoir disposer de la méthode loadData() qui deserialize(charge) les données du projet
+            </summary>
+            <seealso cref="T:Data.Stub"/>
+            <seealso cref="T:Data.Xml"/>
+        </member>
+        <member name="T:Data.ISave">
+            <summary>
+            Cette interface permet aux classe Stub et Xml de pouvoir disposer de la méthode saveData() qui serialize les Données du projet
+            </summary>
+            <seealso cref="T:Data.Stub"/>
+            <seealso cref="T:Data.Xml"/>
+        </member>
+        <member name="T:Data.Stub">
+            <summary>
+            Cette classe permet de tester les différents fonctionnalités du Projet
+            </summary>
+        </member>
+        <member name="T:Data.Xml">
+            <summary>
+            Serialize et deserialize les données utilisées dans des fichiers xml
+            </summary>
+        </member>
+    </members>
+</doc>

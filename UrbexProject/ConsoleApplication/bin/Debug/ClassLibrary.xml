@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClassLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:ClassLibrary.Admin">
+            <summary>
+            Cette classe est une classe héritée de User. Un Admin est un User, mais a une description en plus
+            </summary>
+        </member>
+        <member name="M:ClassLibrary.Admin.#ctor(System.String,System.String,System.String,System.String)">
+             <summary>
+             Constructeur d'un Administrateur
+             </summary>
+            <seealso cref="T:ClassLibrary.User"/>
+        </member>
+        <member name="T:ClassLibrary.AllUser">
+            <summary>
+            La classe AllUser regroupe à travers la liste Lregistre tous les User, ainsi que tous les Admin
+            </summary>
+        </member>
+        <member name="M:ClassLibrary.AllUser.ResearchUser(System.String)">
+            <summary>
+            Recherche un User dans la liste Lregistre
+            </summary>
+            <param name="pseudo">Le pseudo à rechercher dans la liste</param>
+            <returns>renvois l'utilisateur si trouvé, null sinon</returns>
+        </member>
+        <member name="M:ClassLibrary.AllUser.AddUser(ClassLibrary.User)">
+            <summary>
+            Ajoute un User dans la liste Lregistre
+            </summary>
+            <remarks>
+            J'ai changé les paramètres de la méthode, j'ai remplacé par "User user" @Yannis
+            </remarks>
+            <param name="user">L'utilisateur à ajouter à la liste</param>
+            <returns> 1 si l'ajout est effectué, sinon lève une exception</returns>
+        </member>
+        <member name="M:ClassLibrary.AllUser.AddAdmin(ClassLibrary.Admin)">
+            <summary>
+            Ajoute un administrateur à LRegistre
+            </summary>
+            <param name="user">L'utilisateur à ajouter en tant qu'Admin </param>
+            <param name="description">Description qui différencie un Admin d'un User</param>
+            <returns> 1 si l'ajout est effectué, sinon lève une exception </returns>
+            <seealso cref="T:ClassLibrary.Admin"/>
+        </member>
+        <member name="M:ClassLibrary.AllUser.DeleteUser(System.String)">
+            <summary>
+            Retire un Utilisateur de la liste Lregistre, à partir d'un pseudo donné
+            </summary>
+            <param name="pseudo"> Le pseudo de l'utilisateur à supprimer de la liste Lregistre</param>
+            <returns> 1 si la suppression est effectuée, sinon 0 </returns>
+        </member>
+        <member name="T:ClassLibrary.Article">
+            <summary>
+            Un article comprend un Titre et un Texte
+            </summary>
+        </member>
+        <member name="M:ClassLibrary.Article.Modifier(System.String)">
+            <summary>
+            Change l'avis qu'un utilisateur (admin?) à mis précédemment
+            </summary>
+            <param name="newTexte"> Le texte que l'on veut mettre à la place du Texte existant</param>
+        </member>
+        <member name="T:ClassLibrary.Avis">
+            <summary>
+            Un avis est une évaluation d'un Lieu. Il est composé d'une Note, d'un Comment et évidemment de l'User qui le poste
+            </summary>
+            <seealso cref="T:ClassLibrary.Lieu"/>
+        </member>
+        <member name="M:ClassLibrary.Avis.ChangerAvis(System.String)">
+            <summary>
+            Permet de changer l'avis
+            </summary>
+            <param name="newComment"> Nouvel avis pour remplacer l'avis antérieur </param>
+        </member>
+        <member name="T:ClassLibrary.Connexion">
+            <summary>
+            Description de la classe Connexion
+            </summary>
+        </member>
+        <member name="M:ClassLibrary.Connexion.SeConnecter(ClassLibrary.AllUser)">
+            <summary>
+            Permet à un User ou un Admin de se connecter
+            </summary>
+            <param name="registre"> Le registre qui contient tous les utilisateurs.</param>
+            <returns> 1 si l'utilisateur est trouvé, 0 sinon </returns>
+        </member>
+        <member name="T:ClassLibrary.Lieu">
+            <summary>
+            Un Lieu est sous-jacent d'une Region. Un Lieu a un Nom, une Note, une miniature, une Description, et également plusieurs Avis
+            </summary>
+            <seealso cref="T:ClassLibrary.Region"/>
+        </member>
+        <member name="M:ClassLibrary.Lieu.AddAvis(ClassLibrary.Avis)">
+            <summary>
+            Ajoute un avis
+            </summary>
+            <param name="avis"> Avis que l'on veut ajouter à l'ObservableCollection ListeAvis</param>
+        </member>
+        <member name="M:ClassLibrary.Lieu.DeleteAvis(ClassLibrary.Avis)">
+            <summary>
+            Supprime un avis
+            </summary>
+            <param name="avis"> Avis que l'on veut supprimer de l'ObservableCollection ListeAvis</param>
+        </member>
+        <!-- Commentaire XML incorrect pour le membre "T:ClassLibrary.Spots" -->
+        <member name="M:ClassLibrary.Spots.AddSpots(ClassLibrary.Region,System.Collections.ObjectModel.ObservableCollection{ClassLibrary.Lieu})">
+            <summary>
+            Ajoute un Spots au Dictionnary Endroits
+            </summary>
+            <param name="r"> La region que l'on veut ajouter </param>
+            <param name="l"> Les Lieu qui se situent dans cette Region </param>
+        </member>
+        <member name="T:ClassLibrary.User">
+            <summary>
+            Un User est un utilisateur connecté de l'application. Il a un Nom, un Mail et un MotDePasse
+            </summary>
+        </member>
+    </members>
+</doc>
